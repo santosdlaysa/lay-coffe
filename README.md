@@ -1,3 +1,3 @@
 # lay-coffe
  
-Desenvolvido uma cardapio de cafeteria web
+Desenvolvido uma cardapio simples de cafeteria web, desenvolvido com HTML e CSS
