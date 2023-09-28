@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import footer from './components/footer.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <hr>
         <section>
           <h2>Coffee</h2>
-          <img src="" alt="coffee icon"/>
+          <img src="./assets/coffe.png" alt="coffee icon"/>
           <article class="item">
             <p class="flavor">French Vanilla</p><p class="price">3.00</p>
           </article>
@@ -28,7 +28,7 @@ import HelloWorld from './components/HelloWorld.vue'
         </section>
         <section>
           <h2>Desserts</h2>
-          <img src="" alt="pie icon"/>
+          <img src="./assets/cake.png" alt="pie icon"/>
           <article class="item">
             <p class="dessert">Donut</p><p class="price">1.50</p>
           </article>
@@ -45,7 +45,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
 
 </template>
-
+<footer />
 <style scoped>
 .logo {
   height: 6em;
