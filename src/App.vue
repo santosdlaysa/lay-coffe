@@ -1,13 +1,12 @@
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
+</script>
 
-import './App.css';
-
-function App() {
-  return (
-    <div className="menu">
-      <main>
-      <h1>LALAH CAFE</h1>
+<template>
+  <div className="menu">
+    <h1>LALAH CAFE</h1>
         <p class="established">Est. 2020</p>
-        <hr></hr>
+        <hr>
         <section>
           <h2>Coffee</h2>
           <img src="" alt="coffee icon"/>
@@ -43,9 +42,21 @@ function App() {
             <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
           </article>
         </section>
-      </main>
-    </div>
-  );
-}
+  </div>
 
-export default App;
+</template>
+
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
+}
+</style>
