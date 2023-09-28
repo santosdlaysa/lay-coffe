@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lay-coffe/static/css/main.5ea1660e.css",
+    "main.js": "/lay-coffe/static/js/main.033d6024.js",
+    "static/js/787.0ec26ba1.chunk.js": "/lay-coffe/static/js/787.0ec26ba1.chunk.js",
+    "index.html": "/lay-coffe/index.html",
+    "main.5ea1660e.css.map": "/lay-coffe/static/css/main.5ea1660e.css.map",
+    "main.033d6024.js.map": "/lay-coffe/static/js/main.033d6024.js.map",
+    "787.0ec26ba1.chunk.js.map": "/lay-coffe/static/js/787.0ec26ba1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ea1660e.css",
+    "static/js/main.033d6024.js"
+  ]
+}
