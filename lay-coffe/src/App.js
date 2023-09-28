@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cafe Menu</title>
-    <link href="./style.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <div class="menu">
+
+import './App.css';
+
+function App() {
+  return (
+    <div className="menu">
       <main>
-        <h1>CAMPER CAFE</h1>
+      <h1>LALAH CAFE</h1>
         <p class="established">Est. 2020</p>
-        <hr>
+        <hr></hr>
         <section>
           <h2>Coffee</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+          <img src="" alt="coffee icon"/>
           <article class="item">
             <p class="flavor">French Vanilla</p><p class="price">3.00</p>
           </article>
@@ -33,7 +29,7 @@
         </section>
         <section>
           <h2>Desserts</h2>
-          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+          <img src="" alt="pie icon"/>
           <article class="item">
             <p class="dessert">Donut</p><p class="price">1.50</p>
           </article>
@@ -48,13 +44,8 @@
           </article>
         </section>
       </main>
-      <hr class="bottom-line">
-      <footer>
-        <p class="footer-text">
-          <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
-        </p>
-        <p class="address">123 Free Code Camp Drive</p>
-      </footer>
     </div>
-  </body>
-</html>
+  );
+}
+
+export default App;
