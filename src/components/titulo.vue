@@ -1,7 +1,6 @@
 <template>
         <h1>LALAH CAFE</h1>
         <p class="established">Est. 2020</p>
-        <hr>
 </template>
 
 <style scoped> 
@@ -19,7 +18,7 @@ p,h1 {
 
 hr {
   height: 2px;
-  background-color: rgb(90, 36, 36);
-  border-color: rgb(90, 36, 36);
+  background-color: #672727;
+  border-color: #5a242418;
 }
 </style>

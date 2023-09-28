@@ -17,10 +17,11 @@ import itens from './components/itens.vue';
 /*menu */
 .menu {
   width: 80%;
-  background-color: rgba(222, 184, 135, 0.842);
+  background-color: rgba(222, 184, 135, 0.92);
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
+  border-radius: 20px;
 }
 </style>

@@ -1,6 +1,7 @@
 <template>
-    <section>
+    <section class="coffe-itens">
         <h2>Coffee</h2>
+        <hr>
           <img src="../assets/coffe.png" alt="coffee icon"/>
           <article class="item">
             <p class="flavor">French Vanilla</p><p class="price">3.00</p>
@@ -18,8 +19,10 @@
             <p class="flavor">Mocha</p><p class="price">4.50</p>
           </article>
         </section>
-        <section>
+        
+        <section class="cake-itens">
           <h2>Desserts</h2>
+          <hr>
           <img src="../assets/cake.png" alt="pie icon"/>
           <article class="item">
             <p class="dessert">Donut</p><p class="price">1.50</p>
@@ -53,6 +56,11 @@ h2 {
   text-align: center;
 }
 
+.coffe-itens, .cake-itens {
+  background-color: #5a242418;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 img {
   display: block;
@@ -72,6 +80,11 @@ h1, h2 {
   font-family: Impact, serif;
 }
 
+hr {
+  height: 2px;
+  background-color: #5a2424;
+  border-color: rgb(90, 36, 36);
+}
 .item p {
   display: inline-block;
   margin-top: 5px;
