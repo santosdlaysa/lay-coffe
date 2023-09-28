@@ -1,4 +1,4 @@
-# lay-coffe
+# Lalah Coffee 
  
 Desenvolvido uma cardapio simples de cafeteria web, desenvolvido com ReactJs
 
