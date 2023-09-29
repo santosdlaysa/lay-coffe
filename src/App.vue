@@ -16,7 +16,7 @@ import itens from './components/itens.vue';
 <style scoped>
 /*menu */
 .menu {
-  width: 80%;
+  width: 75%;
   background-color: rgba(222, 184, 135, 0.92);
   margin-left: auto;
   margin-right: auto;
